@@ -26,7 +26,7 @@ weight_bk = 0.5
 # Directory 
 
 datadir = '../../inputs/*/*'
-dir_checkpoint = "../checkpoint/"
+dir_checkpoint = "../segmentation_checkpoint/"
 
 
 # Network
