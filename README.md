@@ -8,6 +8,14 @@ We release CSIP image test code.
 Detailed instructions for testing the image are as follows.
 
 ------
+
+# Implementation
+
+A PyTorch implementation of One-Class Classifier for Chest X-rayAnomaly Detection via ContrastivePatch-based Percentile based on original CSI code.
+[https://github.com/alinlab/CSI](*Thanks for Jihoon Tack*, Sangwoo Mo*, Jongheon Jeong, and Jinwoo Shin.)
+
+
+------
 ## Environments
 
 The setting of the virtual environment we used is described as CSIP.yaml.
@@ -37,3 +45,8 @@ Download CSIP weight_folder file(last.model, train_shift_features.pth, train_sim
 If you run two things sequentially, you will see that a "visual" folder is created in the "CSIP" folder, storing the gradcam image and outputting statistical indicators.
 
 ------
+
+
+
+
+
