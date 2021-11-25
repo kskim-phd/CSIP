@@ -8,7 +8,7 @@ Chest X-ray anomaly detection via patch-wise percentile
 
 Detailed instructions for testing the image are as follows.
 ------
-#Environments
+# Environments
 
 The setting of the virtual environment we used is described as CSIP.yaml.
 
@@ -32,7 +32,7 @@ bash run_local.sh
 Download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing
 
 ------
-#Result
+# Result
 
 If you run two things sequentially, you will see that a "visual" folder is created in the "CSIP" folder, storing the gradcam image and outputting statistical indicators.
 
