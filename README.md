@@ -3,23 +3,20 @@ Chest X-ray anomaly detection via patch-wise percentile
 
 
 
-
-
-
-download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing
-
-
-
-
-download sengmentation_checkpoint file(segmentation_model) in https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing
+Detailed instructions for testing the image are as follows.
 
 
 
 # Segmentation
 ------
+Put the test image in the "inputs folder" to create a split mask. After that, receive the segmentation model pre-trained weight file above and put it in "segmentation/segmentation_checkpoint". Please run "segmentation/codes/inference.py".
 
+The segmented mask (_mask.jpg) and the corresponding image (_image.png) are preprocessed and stored in the "input" folder.
+
+download sengmentation_checkpoint file(segmentation_model) in https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing
 
 
 # CSIP
 ------
 
+download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing
