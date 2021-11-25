@@ -1,5 +1,5 @@
 
-# One-Class Classifier for Chest X-rayAnomaly Detection via ContrastivePatch-based Percentile
+### One-Class Classifier for Chest X-rayAnomaly Detection via ContrastivePatch-based Percentile
 
 Chest X-ray anomaly detection via patch-wise percentile
 We release CSIP image test code.
@@ -20,7 +20,7 @@ Put the test image in the "inputs" folder to create a split mask. After that, re
 python inference.py 
 The segmented mask (same name_mask.jpg) and the preprocessed image (same name) are stored in the "input" folder.
 
-Download segmentation_checkpoint file(segmentation_model) in https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing
+Download segmentation_checkpoint file(segmentation_model) in [click](https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing) https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing
 
 ------
 # CSIP
@@ -29,7 +29,7 @@ Download last.model, train_shift_features.pth, train_simclr_features.pth from th
 
 bash run_local.sh
 
-Download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing
+Download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in[click](https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing)
 
 ------
 # Result
