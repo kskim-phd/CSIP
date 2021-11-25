@@ -20,7 +20,7 @@ Put the test image in the "inputs" folder to create a split mask. After that, re
 python inference.py 
 The segmented mask (same name_mask.jpg) and the preprocessed image (same name) are stored in the "input" folder.
 
-Download segmentation_checkpoint file(segmentation_model) in [click](https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing) https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing
+Download segmentation_checkpoint file(segmentation_model) in [click](https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing) 
 
 ------
 # CSIP
