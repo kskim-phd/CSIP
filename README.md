@@ -12,7 +12,7 @@ Detailed instructions for testing the image are as follows.
 
 # Segmentation
 ------
-Put the test image in the "inputs folder" to create a split mask. After that, receive the segmentation model pre-trained weight file above and put it in "segmentation/segmentation_checkpoint". Please run "segmentation/codes/inference.py".
+Put the test image in the "inputs" folder to create a split mask. After that, receive the segmentation model pre-trained weight file above and put it in "segmentation/segmentation_checkpoint". Please run "segmentation/codes/inference.py".
 
 The segmented mask (same name_mask.jpg) and the preprocessed image (same name) are stored in the "input" folder.
 
