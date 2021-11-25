@@ -7,6 +7,7 @@ Chest X-ray anomaly detection via patch-wise percentile
 
 
 Detailed instructions for testing the image are as follows.
+
 ------
 # Environments
 
