@@ -29,7 +29,7 @@ Download last.model, train_shift_features.pth, train_simclr_features.pth from th
 
 bash run_local.sh
 
-Download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in[click](https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing)
+Download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in [click](https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing)
 
 ------
 # Result
