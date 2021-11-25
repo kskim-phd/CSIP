@@ -69,44 +69,7 @@ def parse_args(default=False):
     else:
         return parser.parse_args()
 
-def get_features(loader, P, base_path, train):
-    model.eval()
-    feats_simclr = []
-    feats_shift = []
-    with torch.no_grad():
-        for i, data in enumerate(loader):
-            if train == True :
-                x = data['img'][0]  # augmented list of x
-            else: x= data['img']
-            x = x.to(device)  # gpu tensor
-            _, output_aux = model(x, simclr=True, shift=True)
-            feats_simclr.append(output_aux['simclr'])
-            feats_shift.append(output_aux['shift'])
-    feats_simclr = torch.cat(feats_simclr, axis=0)
-    feats_shift = torch.cat(feats_shift, axis=0)
 
-    return feats_simclr, feats_shift
-
-def augmentation(image, rand_p, mode):
-    if mode == 'train':
-        # random vertical flip
-        if rand_p > 0.5:
-            image = functional.hflip(image)
-        else:
-            pass
-    elif mode == 'test':
-        pass
-    else:
-        print('Error: not a valid phase option.')
-        
-    return image
-
-        
-def get_total_scores(scores_id, scores_ood):
-    scores = np.concatenate([scores_id, scores_ood])
-    labels = np.concatenate([np.ones_like(scores_id), np.zeros_like(scores_ood)])
-    return labels, scores
-        
 def generate_visual(img_dir, ood):
     
     origin_dir = os.path.join('..', P.save_name, label, img_dir.split("/")[-1])
@@ -175,7 +138,7 @@ def generate_visual(img_dir, ood):
     score_min = np.min(cam[np.nonzero(cam)])
     cam_minmax = (cam-score_min)/(cam.max()-score_min)
     cam_minmax = cam_minmax*test_mask
-    npy_dir = os.path.join('..', P.save_name, label, "npy",img_dir.split("/")[-1].replace(".png_image.png",".npy"))
+    npy_dir = os.path.join('..', P.save_name, label, "npy",img_dir.split("/")[-1].replace(".png",".npy"))
     np.save(npy_dir, cam)
     
 
@@ -190,7 +153,7 @@ def generate_visual(img_dir, ood):
     plt.grid(b=None)
     plt.imshow(test_img, cmap='gray')
     plt.savefig(origin_dir, bbox_inches = 'tight', pad_inches = 0)
-    score_dir = os.path.join('..', P.save_name, label, img_dir.split("/")[-1].replace("image", f"score_{score_q20:.3f}"))
+    score_dir = os.path.join('..', P.save_name, label, img_dir.split("/")[-1].replace('.png','_')+ f"score_{score_q20:.3f}.png")
     plt.imshow(plt_img)
     plt.savefig(score_dir, bbox_inches = 'tight', pad_inches = 0)
     plt.clf()
