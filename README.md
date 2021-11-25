@@ -12,7 +12,7 @@ Detailed instructions for testing the image are as follows.
 # Implementation
 
 A PyTorch implementation of One-Class Classifier for Chest X-ray Anomaly Detection via ContrastivePatch-based Percentile based on original CSI code.
-[https://github.com/alinlab/CSI](*Thanks for Jihoon Tack*, Sangwoo Mo*, Jongheon Jeong, and Jinwoo Shin.)
+[https://github.com/alinlab/CSI] (*Thanks for Jihoon Tack*, Sangwoo Mo*, Jongheon Jeong, and Jinwoo Shin.)
 
 
 ------
