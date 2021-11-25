@@ -14,6 +14,7 @@ Detailed instructions for testing the image are as follows.
 A PyTorch implementation of One-Class Classifier for Chest X-ray Anomaly Detection via ContrastivePatch-based Percentile based on original CSI and Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets code.
 
 CSI[https://github.com/alinlab/CSI] (*Thanks for Jihoon Tack*, Sangwoo Mo*, Jongheon Jeong, and Jinwoo Shin.)
+
 Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets[https://github.com/jongcye/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets] (*Thanks for Yujin Oh*, Sangjoon Park*, and Jong Chul Ye)
 
 
