@@ -1,5 +1,5 @@
 
-# One-Class Classifier for Chest X-rayAnomaly Detection via ContrastivePatch-based Percentile
+# One-Class Classifier for Chest X-ray Anomaly Detection via ContrastivePatch-based Percentile
 
 Chest X-ray anomaly detection via patch-wise percentile
 We release CSIP image test code.
@@ -11,7 +11,7 @@ Detailed instructions for testing the image are as follows.
 
 # Implementation
 
-A PyTorch implementation of One-Class Classifier for Chest X-rayAnomaly Detection via ContrastivePatch-based Percentile based on original CSI code.
+A PyTorch implementation of One-Class Classifier for Chest X-ray Anomaly Detection via ContrastivePatch-based Percentile based on original CSI code.
 [https://github.com/alinlab/CSI](*Thanks for Jihoon Tack*, Sangwoo Mo*, Jongheon Jeong, and Jinwoo Shin.)
 
 
