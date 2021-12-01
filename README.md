@@ -1,5 +1,5 @@
 
-# One-Class Classifier for Chest X-ray Anomaly Detection via ContrastivePatch-based Percentile
+# One-Class Classifier for Chest X-ray Anomaly Detection via Contrastive Patch-based Percentile
 
 Chest X-ray anomaly detection via patch-wise percentile
 We release CSIP image test code.
