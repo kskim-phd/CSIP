@@ -15,7 +15,7 @@ A PyTorch implementation of One-Class Classifier for Chest X-ray Anomaly Detecti
 
 CSI[https://github.com/alinlab/CSI] (Thanks for Jihoon Tack*, Sangwoo Mo*, Jongheon Jeong, and Jinwoo Shin.)
 
-Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets[https://github.com/jongcye/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets] (Thanks for Yujin Oh*, Sangjoon Park*, and Jong Chul Ye)
+Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets [https://github.com/jongcye/Deep-Learning-COVID-19-on-CXR-using-Limited-Training-Data-Sets] (Thanks for Yujin Oh*, Sangjoon Park*, and Jong Chul Ye)
 
 
 ------
@@ -32,7 +32,7 @@ python inference.py
 ```
 The segmented mask (same name_mask.jpg) and the preprocessed image (same name) are stored in the "input" folder.
 
-Download segmentation_checkpoint file(segmentation_model) in [here](https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing) 
+Download segmentation_checkpoint file (segmentation_model) in [here] (https://drive.google.com/drive/folders/1WvvwwY3O9ItcZ8G6Y71D3g3GWK0mNsSW?usp=sharing) 
 
 ------
 ## CSIP
@@ -41,7 +41,7 @@ Download last.model, train_shift_features.pth, train_simclr_features.pth from th
 ```
 bash run_local.sh
 ```
-Download CSIP weight_folder file(last.model, train_shift_features.pth, train_simclr_features.pth) in [here](https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing)
+Download CSIP weight_folder file (last.model, train_shift_features.pth, train_simclr_features.pth) in [here](https://drive.google.com/drive/folders/1GBM8zIFwYi0OodXLenJQDCGF6VNELF80?usp=sharing)
 
 ------
 ## Result
