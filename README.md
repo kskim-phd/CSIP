@@ -1,9 +1,8 @@
 
 # One-Class Classifier for Chest X-ray Anomaly Detection via Contrastive Patch-based Percentile
 
-Chest X-ray anomaly detection via patch-wise percentile
-We release CSIP image test code.
-
+We release CSIP image evaluation code.
+Contributors: Kyung-su Kim (kskim.doc@gmail.com), Seongje Oh, Hyunbin Cho
 
 Detailed instructions for testing the image are as follows.
 
