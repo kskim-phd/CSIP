@@ -3,7 +3,7 @@
 
 We release CSIP image evaluation code.
 
-Collaborators: Kyung-su Kim , Seongje Oh, Hyunbin Cho
+Collaborators: Hyunbin Cho, Seongje Oh, Kyung-su Kim
 
 Detailed instructions for testing the image are as follows.
 
